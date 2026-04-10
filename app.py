@@ -15,10 +15,10 @@ def home():
         <title>GitOps Demo Application - Updated</title>
       </head>
       <body>
-        <h1>GitOps Demo Application</h1>
+        <h1>GitOps Demo Application2</h1>
         <p><strong>Version:</strong> {VERSION}</p>
         <p><strong>Pod Hostname:</strong> {HOSTNAME}</p>
-        <p>This app is running on EKS and updated through GitOps pipeline.</p>
+        <p>This app is running on EKS and argocd running.</p>
       </body>
     </html>
     """
